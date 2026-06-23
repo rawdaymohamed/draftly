@@ -1,6 +1,6 @@
 import React from "react";
 
-const Moon = ({ className = "size-4 text-yellow-500  " }) => {
+const Moon = ({ className = "size-4 text-yellow-500" }) => {
   return (
     <svg
       className={className}

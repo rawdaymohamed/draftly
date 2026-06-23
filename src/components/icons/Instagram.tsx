@@ -3,7 +3,7 @@ import React from "react";
 const Instagram = () => {
   return (
     <svg
-      className="size-5 hover:opacity-70 hover:cursor-pointer"
+      className="size-5 fill-current dark:text-white text-gray-900 hover:opacity-70 hover:cursor-pointer"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 448 512"
     >

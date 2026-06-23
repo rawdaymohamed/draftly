@@ -27,7 +27,7 @@ export const ThemeContextProvider = ({ children }: { children: ReactNode }) => {
       setTheme(savedTheme);
       document.documentElement.classList.toggle("dark", savedTheme === "dark");
     }
-  }, []);
+  }, [theme]);
 
   const toggleTheme = () => {
     setTheme((prevTheme) => {
