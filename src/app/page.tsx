@@ -1,29 +1,17 @@
+import CardList from "@/components/CardList";
+import CategoryList from "@/components/CategoryList";
+import Featured from "@/components/Featured";
+import Menu from "@/components/Menu";
+
 export default function Home() {
   return (
-    <>
-      <h1>Draftly</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quasi
-        ea magnam voluptatem harum, quo sequi consequatur consequuntur beatae
-        vel numquam veniam amet exercitationem expedita excepturi, earum iste
-        quia laborum. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Dolorem quasi ea magnam voluptatem harum, quo sequi consequatur
-        consequuntur beatae vel numquam veniam amet exercitationem expedita
-        excepturi, earum iste quia laborum. Lorem ipsum dolor sit, amet
-        consectetur adipisicing elit. Dolorem quasi ea magnam voluptatem harum,
-        quo sequi consequatur consequuntur beatae vel numquam veniam amet
-        exercitationem expedita excepturi, earum iste quia laborum. Lorem ipsum
-        dolor sit, amet consectetur adipisicing elit. Dolorem quasi ea magnam
-        voluptatem harum, quo sequi consequatur consequuntur beatae vel numquam
-        veniam amet exercitationem expedita excepturi, earum iste quia laborum.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quasi
-        ea magnam voluptatem harum, quo sequi consequatur consequuntur beatae
-        vel numquam veniam amet exercitationem expedita excepturi, earum iste
-        quia laborum. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Dolorem quasi ea magnam voluptatem harum, quo sequi consequatur
-        consequuntur beatae vel numquam veniam amet exercitationem expedita
-        excepturi, earum iste quia laborum.
-      </p>
-    </>
+    <div className="">
+      <Featured />
+      <CategoryList />
+      <div className="">
+        <CardList />
+        <Menu />
+      </div>
+    </div>
   );
 }
