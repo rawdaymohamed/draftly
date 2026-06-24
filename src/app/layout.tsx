@@ -32,7 +32,7 @@ export default function RootLayout({
     >
       <body className="min-h-full overflow-x-hidden">
         <ThemeContextProvider>
-          <div className="w-full md:max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto flex flex-col px-8 lg:px-16">
+          <div className="min-h-screen w-full md:max-w-4xl lg:max-w-6xl xl:max-w-7xl mx-auto flex flex-col px-8 lg:px-16">
             <Navbar />
             {children}
             <Footer />
