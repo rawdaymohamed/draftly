@@ -8,7 +8,7 @@ import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center py-4">
+    <nav className="flex justify-between items-center py-4 px-6 lg:px-0">
       {/* Social icons */}
       <div className="hidden md:flex items-center gap-2 flex-1 ">
         <Facebook />
