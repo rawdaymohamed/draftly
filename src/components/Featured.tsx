@@ -3,7 +3,7 @@ import React from "react";
 
 const Featured = () => {
   return (
-    <section className="flex flex-col gap-12 pt-8 md:pt-14">
+    <section className="flex flex-col gap-12">
       {/* Hero title */}
       <div className="px-6 lg:px-0">
         <h1 className="max-w-4xl text-4xl font-light leading-tight tracking-tight text-zinc-900 dark:text-zinc-100 md:text-5xl lg:text-6xl">

@@ -5,7 +5,7 @@ import Menu from "@/components/Menu";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-10 mt-3 md:mt-8">
+    <div className="flex flex-col gap-10 mt-5">
       <Featured />
       <CategoryList />
       <div className="">
