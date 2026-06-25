@@ -1,7 +1,7 @@
 import React from "react";
 
-const Menu = () => {
-  return <div className="">Menu</div>;
+const Menu = ({ className }: { className: string }) => {
+  return <div className={`${className} `}>Menu</div>;
 };
 
 export default Menu;
