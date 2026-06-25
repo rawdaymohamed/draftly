@@ -17,19 +17,28 @@ const Navbar = () => {
       </div>
       {/* Logo */}
       <div className="flex-1 text-left md:text-center">
-        <Link href="/" className="text-xl md:text-2xl font-bold">
+        <Link href="/" className="text-xl md:text-2xl font-light">
           Draftly
         </Link>
       </div>
       {/* Items */}
-      <div className="gap-4 md:gap-6 flex items-center flex-1 text-md md:text-lg justify-end relative">
-        <Link href="/" className="hidden sm:flex">
+      <div className="gap-4 md:gap-6 flex items-center flex-1 text-md md:text-lg justify-end relative text-gray-600 dark:text-gray-300">
+        <Link
+          href="/"
+          className="hidden sm:flex hover:text-black hover:dark:text-white"
+        >
           Home
         </Link>
-        <Link className="hidden sm:flex" href="/contact">
+        <Link
+          className="hidden sm:flex hover:text-black hover:dark:text-white"
+          href="/contact"
+        >
           Contact
         </Link>
-        <Link href="/about" className="hidden sm:flex">
+        <Link
+          href="/about"
+          className="hidden sm:flex hover:text-black hover:dark:text-white"
+        >
           About
         </Link>
         <AuthLink />
