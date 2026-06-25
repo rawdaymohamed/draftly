@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Featured = () => {
@@ -47,10 +48,12 @@ const Featured = () => {
             Draftly began as a simple place to write, share ideas, and document
             my growth as a MERN Stack and Next.js developer.
           </p>
-
-          <button className="mt-2 w-fit cursor-pointer rounded-full bg-zinc-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-300">
+          <Link
+            href="/"
+            className="inline-flex w-fit items-center rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-indigo-700"
+          >
             Read More
-          </button>
+          </Link>
         </div>
       </article>
     </section>
